@@ -8,10 +8,30 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container fluid celykont">
-  <div class="container">
+  <div class="container p-0 celykont">
+    <div class="container p-0 m-0">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light p-0 m-0">
+    <a class="navbar-brand" href="index.html">Skákací hrady Loučeň</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Zapůjčení hradů<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Party stany</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Kontakt</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
 <div class="media">
-  <img src="images/logotransparent.png" alt="Skákací hrady Loučeň" class="w-50 h-50 mr-3 col-12 col-sm-3" >
+  <img src="images/logotransparent.png" class="logo" alt="Skákací hrady Loučeň">
 </div>
   <div class= "col-12 col-sm-9 m-3 p-3">
   <h1>Party Servis Loučeň</h1>
@@ -96,7 +116,7 @@
   </p>
   <p> Email:
     <br>
-    <a class="ml-1" href="mailto:ahoj@scissors.cz">partyservisloucen@gmail.com</a>
+    <a class="ml-1" href="mailto:partyservisloucen@gmail.com">partyservisloucen@gmail.com</a>
   </br>
   </p>
   <p>Telefonické objednávky:<br>+420 734 481 002</p>
@@ -116,11 +136,8 @@
 
 	<!-- Paticka -->
 
-	<p>&copy;2020, Kristýna Bartoňová</p>
+	<p class="m-2 text-center">&copy;2020, Kristýna Bartoňová</p>
 <!-- konec #paticka -->
-
-	 Optional JavaScript
-	 jQuery first, then Popper.js, then Bootstrap JS 
 	<script src="js/jquery-3.5.1.slim.min.js"></script>
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
